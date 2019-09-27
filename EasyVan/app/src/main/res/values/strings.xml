@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_act_main">ActMain</string>
+    <string name="title_activity_act_cad_proprietario">ActCadProprietario</string>
+    <string name="title_activity_act_login">ActLogin</string>
+    <string name="title_activity_act_proprietario">ActProprietario</string>
+    <string name="title_activity_act_cad_cliente">ActCadCliente</string>
+    <string name="title_activity_act_cad_veiculo">ActCadVeiculo</string>
+    <string name="title_activity_act_cad_motorista">ActCadMotorista</string>
+</resources>

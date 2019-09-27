@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.easyvan.ActProprietario"
+    tools:showIn="@layout/act_proprietario">
+
+    <Button
+        android:id="@+id/button_regCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="regCliente"
+        android:text="Registrar Cliente"
+        app:layout_constraintBottom_toTopOf="@+id/button_regVeiculo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <Button
+        android:id="@+id/button_regVeiculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="regVeiculo"
+        android:text="Registrar Veiculo"
+        app:layout_constraintBottom_toTopOf="@+id/button_regMotorista"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.775" />
+
+    <Button
+        android:id="@+id/button_regMotorista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="regMotorista"
+        android:text="Registrar Motorista"
+        app:layout_constraintBottom_toTopOf="@+id/button_backMain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.716" />
+
+    <Button
+        android:id="@+id/button_backMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Back"
+        android:text="Voltar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.72" />
+</androidx.constraintlayout.widget.ConstraintLayout>

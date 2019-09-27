@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.easyvan.ActCadMotorista"
+            android:label="@string/title_activity_act_cad_motorista"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name="com.example.easyvan.ActCadVeiculo"
+            android:label="@string/title_activity_act_cad_veiculo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.easyvan.ActCadCliente"
+            android:label="@string/title_activity_act_cad_cliente"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.easyvan.ActProprietario"
+            android:label="@string/title_activity_act_proprietario"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.easyvan.ActProLogin"
+            android:label="@string/title_activity_act_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.easyvan.ActCadProprietario"
+            android:label="@string/title_activity_act_cad_proprietario"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.easyvan.ActMain"
+            android:label="@string/title_activity_act_main"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
